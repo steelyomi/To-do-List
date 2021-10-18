@@ -18,8 +18,6 @@ mongoose.connect("mongodb+srv://admin-yomi:Test-123@cluster0.zm32c.mongodb.net/t
 
 
 
-
-
 const itemsSchema = {
   name: String
 };
