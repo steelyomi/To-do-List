@@ -14,8 +14,8 @@ app.use(express.static("public"));
 
 
 // connecting to database
-mongoose.connect("mongodb+srv://admin-yomi:Test-123@cluster0.zm32c.mongodb.net/todolistDB", {useNewUrlParser: true});
-
+// mongoose.connect("mongodb+srv://admin-yomi:Test-123@cluster0.zm32c.mongodb.net/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlParser:true});
 
 
 const itemsSchema = {
